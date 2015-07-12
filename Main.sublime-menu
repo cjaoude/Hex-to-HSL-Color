@@ -13,14 +13,6 @@
         "children":
         [
           {
-            "caption": "Convert All RGB to HSL",
-            "command": "rgb_to_hsl",
-            "args":
-            {
-              "convert_all" : true
-            }
-          },
-          {
             "caption": "Convert All RGB to HSLA",
             "command": "rgb_to_hsl",
             "args":
@@ -28,10 +20,6 @@
               "convert_all" : true,
               "force_alpha" : true
             }
-          },
-          {
-            "caption": "Convert Selected RGB to HSL",
-            "command": "rgb_to_hsl"
           },
           {
             "caption": "Convert Selected RGB to HSLA",
